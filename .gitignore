@@ -1,0 +1,60 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pyi
+
+# Virtual Environment
+venv/
+env/
+ENV/
+
+# Editor/IDE
+.vscode/
+.idea/
+*.sublime-workspace
+
+# Logs
+logs/
+*.log
+
+# Dependency directories
+dist/
+build/
+lib/
+
+# Compiled files
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Package files
+*.egg-info/
+*.egg
+*.egg-info/
+
+# Development files
+*.bak
+*.swp
+*.DS_Store
+*.bak
+*.swp
+
+# Configuration files
+.env
+.env.local
+.env.*.local
+.env.*.prod
+
+# IDE-specific files
+.vscode/
+*.code-workspace
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.bak
+*~.nib

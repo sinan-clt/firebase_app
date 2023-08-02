@@ -15,7 +15,7 @@ class SendPushNotitification(APIView):
 
     def post(self, request):
         # Replace 'YOUR_SERVER_KEY' with your Firebase Server Key
-        server_key = 'AAAAhqv7NXA:APA91bHaWeKJyAXnjhpcFpV67Ob4lqIJPL2r7Km8u4uAy3uSKKo4XQE9reA_BZyEz_DMIftV-UWx_2K3H-7dlFt_zta2UcQHWe2H2qcUVB2bjh_UNsK_3SoM7ovJG8LCk3a03Xolnl2c'
+        server_key = 'YOUR SERVER KEY'
 
         # Get the device token, title, and body from the request data
         device_token = request.data.get('device_token')
